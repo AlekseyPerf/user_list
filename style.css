@@ -1,0 +1,142 @@
+p,h3 {
+    /* Стили элемента сбрасываются к начальным значениям из спецификации */
+    all: initial;
+}
+.wrapper {
+    width: 665px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.sort {
+    background-color: #BDBDBD;
+    width: 152px;
+}
+.sort_header {
+    margin: 35px 63px 10px 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    display: block;
+}
+.sort_button { 
+    padding: 5px 15px;
+    background-color: #4B51EF;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    font-weight: 400;
+    border-radius: 5px;
+    width: auto;
+    display: inline-block;
+    text-align: left;
+}
+.page h3{
+    margin-left: 34px;
+    margin-top: 19px;
+    margin-bottom: 3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+
+    color: #000000;
+}
+.user {
+    width: 420px;
+    height: 73px;
+    left: 0px;
+    top: 2px;
+    background: #F3F3F3;
+    border-radius: 8px;
+    margin: 14px 60px 24px 34px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+.user div {
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.user div p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+}
+.title_user {
+    color: #A3A3A3;
+}
+.user div p.more {
+    margin-left: 201px;
+    color: #4B51EF;
+    font-size: 12px;
+    line-height: 14px;
+}
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+.user_profile {
+    margin: 16px 41px 10px 36px;
+    border: 1px solid #F3F3F3;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-bottom: 19px;
+    padding-right: 6px;
+}
+.title_profile {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+
+}
+.user_profile input {
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.user_profile input::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: rgba(0, 0, 0, 0.3);
+}
+.comment_input {
+    width: 420px;
+    height: 55px;
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 34px;
+    margin-top: 19px;
+    margin-bottom: 3px;
+    margin-right: 45px;
+}
+.heading h3 {
+    margin: 0;
+}
+.heading p {
+    margin: 0;
+}
+p#send {
+    margin-left: 386px;
+    background: #AFAFAF;
+    margin-bottom: 480px;
+}

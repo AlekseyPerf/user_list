@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список пользователей</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sort">
+            <p class="sort_header">Сортировка</p>
+            <span class="sort_button">по городу</span>
+            <p class="sort_button">по компании</p>
+        </div>
+        <div class="page">
+            <div class="heading">
+                <h3>Профиль пользователя</h3>
+                <p class="sort_button">Редактировать</p>
+            </div>
+            <div class="user_profile">
+                <div>
+                    <p class="title_profile">Name</p><br/>
+                    <input type="text" readonly placeholder="Иван Иванов">
+                </div>
+                <div>
+                    <p class="title_profile">User name</p><br/>
+                    <input type="text" readonly placeholder="Ivan">
+                </div>
+                <div>
+                    <p class="title_profile">E-mail</p><br/>
+                    <input type="text" readonly placeholder="example@mail.com">
+                </div>
+                <div>
+                    <p class="title_profile">Street</p><br/>
+                    <input type="text" readonly placeholder="ул. Пример">
+                </div>
+                <div>
+                    <p class="title_profile">City</p><br/>
+                    <input type="text" readonly placeholder="Москва">
+                </div>
+                <div>
+                    <p class="title_profile">Zip code</p><br/>
+                    <input type="text" readonly placeholder="1234234">
+                </div>
+                <div>
+                    <p class="title_profile">Phone</p><br/>
+                    <input type="phone" readonly placeholder="89991112233">
+                </div>
+                <div>
+                    <p class="title_profile">Website</p><br/>
+                    <input type="text" readonly placeholder="www.example.com">
+                </div>
+                <div>
+                    <p class="title_profile">Comment</p><br/>
+                    <input type="text" readonly class="comment_input">
+                </div>
+            </div>
+            <p class="sort_button" id="send">Отправить</p>
+        </div>
+    </div>    
+</body>
+</html>
